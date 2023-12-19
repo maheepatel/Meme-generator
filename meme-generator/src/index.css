@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 56px;
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+
+}
+
+
+.header--title {
+  font-size: 2.2rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.meme--container {
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  display: grid;
+  place-content: center;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 17px;
+  width: 100%;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #A818DA;
+  text-indent: 15px;
+  height: 60px;
+}
+
+.form--button {
+  height: 60px;
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-meme{
+  color: #000;
+  font-family: "Karla",sans-serif;
+  font-weight: 700;
+}
+
+.meme{
+  position: relative;
+ }
+
+.meme--image{
+  max-width: 100%;
+  border-radius: 3px;
+  height: 370px;
+  display: grid;
+  place-content: center;
+  margin-top: 10px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+    }
+    
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+
+
+
+
+
+
+
+/* Un wanted css
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > img{
+  width: 50%;
+  border-radius: 10px;
+  transition: filter .2s ease-in-out;
+}
+
+.container > img:hover{
+  filter: brightness(50%);
+}
+
+.container > button {
+  width: 50%;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid lightgray;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'karla', sans-serif;
+  font-size: 2rem;
+} */
